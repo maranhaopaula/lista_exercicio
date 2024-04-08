@@ -1,0 +1,86 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation: pulsar 3s infinite;
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
+}
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black(53, 53, 53);
+}
+
+
+@keyframes pulsar{
+
+    50% {
+        background-color: black;
+        height: 400px;
+        width: 400px;
+
+    }
+    
+ 
+    100% {
+        background-color: black;
+        height: 200px;
+        width: 200px;
+    }
+   
+
+        100% {
+            background-color: black;
+            transform: rotate(45deg);
+    
+        }
+        
+        100% {
+            background-color: black;
+            transform: rotate(90deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(135deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(180deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(225deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(270deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(315deg);
+    
+        }
+        100% {
+            background-color: black;
+            transform: rotate(360deg);
+        }
+}

@@ -1,0 +1,27 @@
+.container{
+   height: 750px;
+   display:  flex;
+   justify-content: center;
+   align-items: center
+
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
+}
+.quadrado{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
