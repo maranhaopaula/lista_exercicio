@@ -1,0 +1,36 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation: mover 3s infinite;
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
+}
+
+body{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes mover{
+
+    50% {
+        background-color: brown;
+        transform: rotate(45deg);
+
+    }
+}

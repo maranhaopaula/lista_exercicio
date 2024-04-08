@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    color: aliceblue;
+    
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
+}
+form {
+    border:10px solid black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../assets/cuida.jpeg);
+    background-size: cover;
+    animation: descer 5s ease;
+    position: relative;
+}
+button{
+    margin: 5px;
+}
+
+.bts{ 
+    display: flex;
+}
+@keyframes descer{
+    0%{
+        bottom: 1000px;
+    }
+    
+    100%{
+        bottom: 0;
+    }
+    
+}

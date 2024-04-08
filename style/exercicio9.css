@@ -1,0 +1,47 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    animation: pulsar 2s infinite;
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+
+    text-decoration: none;
+}
+
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black(53, 53, 53);
+}
+
+
+@keyframes pulsar{
+
+    50% {
+        background-color: black;
+        height: 400px;
+        width: 400px;
+
+    }
+    
+ 
+    100% {
+        background-color: black;
+        height: 200px;
+        width: 200px;
+    }
+}

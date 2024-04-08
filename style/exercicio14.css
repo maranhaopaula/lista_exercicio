@@ -1,0 +1,35 @@
+.container{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: 0.5s ;
+}
+
+.circulo:hover{
+    border-radius: 0;
+    height: 100px;
+}
+

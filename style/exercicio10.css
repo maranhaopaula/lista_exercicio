@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: mover 2s linear;
+    background-image: url(../assets/cuida.jpeg);
+    background-size: cover;
+    position: relative;
+    animation: subir 5s ease;
+}
+
+@keyframes subir {
+    0% {
+        top:0%;
+        left: 0%;
+    }
+
+    100% {
+        top:-45%;
+        left: -45%;
+        width: 70px;
+        height: 70px;
+    }
+
+}
